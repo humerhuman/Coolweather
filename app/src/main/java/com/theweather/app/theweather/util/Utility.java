@@ -55,6 +55,7 @@ public class Utility {
                     city.setCityName(array[1]);
                     city.setProvince_id(provinceId);
 //                    将解析出来的数据存储到city类
+                    System.out.println("获得市解析数据");
                     coolWeatherDB.saveCity(city);
                 }
                 return true;
